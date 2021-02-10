@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main(void)
+{
+	printf("\t Hello C! \n Hello world! \n");
+	printf("큰따옴표 : \" \" \n");
+	printf("작은따옴표 : \' \' \n");
+	printf("역슬래시 : \\ \n");
+
+	return 0;
+}
+
+/*	4행에서 \t는 Tab키와 같은 효과
+	5행에서 큰따옴표 작은 따옴표 출력
+	7행에서 역슬래시 출력
+*/
+
+/*	-특수문자-
+	\a - 경고음 소리 발생
+	\b - 백스페이스
+	\f - 폼 피드 (Form Feed)
+	\n - 개행(New Line)
+	\r - 캐리지 리턴
+	\t - 수평 탭
+	\v - 수직 탭
+	\\ - 역슬래시(\)
+	\' - 작은 따옴표
+	\" - 큰 따옴표
+*/
